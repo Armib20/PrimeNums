@@ -6,8 +6,11 @@ namespace PrimeNums
     {
         static void Main(string[] args)
         {
+            //initalizes variables 
             int num = 2;
             int count = 0;
+
+            //runs loop to identify first 1000 primes and print
             while (count < 1000)
             {
                 if (isPrime(num) == true)
