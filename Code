@@ -25,6 +25,7 @@ namespace PrimeNums
 
         }
 
+        //Tests if number is prime
         public static bool isPrime(int num)
         {
             int check = 0;
